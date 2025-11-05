@@ -1,0 +1,64 @@
+================ Wednesday 05 November 2025 05:57:49 PM IST ================
+Running: Backup Script
+-------------------------------------------------
+mkdir: cannot create directory ‘’: No such file or directory
+================ Wednesday 05 November 2025 05:58:08 PM IST ================
+Running: Maintenance Script
+-------------------------------------------------
+Starting system maintenance...
+Updating package lists...
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Ign:1 http://http.kali.org/kali kali-rolling InRelease
+Ign:1 http://http.kali.org/kali kali-rolling InRelease
+Ign:1 http://http.kali.org/kali kali-rolling InRelease
+Err:1 http://http.kali.org/kali kali-rolling InRelease
+  503  Service Unavailable [IP: 54.39.128.230 80]
+================ Wednesday 05 November 2025 06:01:58 PM IST ================
+Running: Backup Script
+-------------------------------------------------
+Starting backup of /home/kali/Documents/WIPRO_PROJECT/Capstone_Project/Bash_Scripting...
+tar: Removing leading `/' from member names
+/home/kali/Documents/WIPRO_PROJECT/Capstone_Project/Bash_Scripting/
+/home/kali/Documents/WIPRO_PROJECT/Capstone_Project/Bash_Scripting/backup_1.sh
+/home/kali/Documents/WIPRO_PROJECT/Capstone_Project/Bash_Scripting/main.sh
+/home/kali/Documents/WIPRO_PROJECT/Capstone_Project/Bash_Scripting/maintenance_suite.log
+/home/kali/Documents/WIPRO_PROJECT/Capstone_Project/Bash_Scripting/backup.sh
+/home/kali/Documents/WIPRO_PROJECT/Capstone_Project/Bash_Scripting/maintenance.sh
+/home/kali/Documents/WIPRO_PROJECT/Capstone_Project/Bash_Scripting/log_monitor.sh
+/home/kali/Documents/WIPRO_PROJECT/Capstone_Project/Bash_Scripting/main_1.sh
+/home/kali/Documents/WIPRO_PROJECT/Capstone_Project/Bash_Scripting/Mobile App Security Testing Using Automated Testing Tools.pptx
+/home/kali/Documents/WIPRO_PROJECT/Capstone_Project/Bash_Scripting/log_monitor_1.sh
+Backup complete! File created: /home/kali/Documents/Backup/my_project/backup_2025-11-05_18-01-58.tar.gz
+================ Wednesday 05 November 2025 06:02:04 PM IST ================
+Running: Maintenance Script
+-------------------------------------------------
+Starting system maintenance...
+Updating package lists...
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Ign:1 http://http.kali.org/kali kali-rolling InRelease
+Ign:1 http://http.kali.org/kali kali-rolling InRelease
+Ign:1 http://http.kali.org/kali kali-rolling InRelease
+Get:2 https://dl.google.com/linux/chrome/deb stable InRelease [1,825 B]
+Ign:3 https://pkg.cloudflareclient.com kali-rolling InRelease
+Get:4 https://dl.google.com/linux/chrome/deb stable/main amd64 Packages [1,216 B]
+Err:5 https://pkg.cloudflareclient.com kali-rolling Release
+  404  Not Found [IP: 104.16.24.84 443]
+Err:1 http://http.kali.org/kali kali-rolling InRelease
+  503  Service Unavailable [IP: 54.39.128.230 80]
+Reading package lists...
+Error: The repository 'https://pkg.cloudflareclient.com kali-rolling Release' does not have a Release file.
+================ Wednesday 05 November 2025 06:02:21 PM IST ================
+Running: Log Monitor Script
+-------------------------------------------------
+Starting log scan for 'Failed' in /var/log/auth.log...
+----------------------------------------
+ALERT: Potential issues found!
+----------------------------------------
+7:2025-10-26T02:58:17.746057+05:30 kali unix_chkpwd[1776]: password check failed for user (kali)
+11:2025-10-26T02:58:17.746379+05:30 kali gdm-password]: pam_winbind(gdm-password:auth): request wbcLogonUser failed: WBC_ERR_WINBIND_NOT_AVAILABLE, PAM error: PAM_AUTHINFO_UNAVAIL (9)!
+88:2025-10-27T18:01:51.979119+05:30 kali dbus-daemon[1471]: [session uid=1000 pid=1471 pidfd=5] Failed to activate service 'org.gnome.Shell.Screencast': timed out (service_start_timeout=120000ms)
+208:2025-10-28T19:32:38.150596+05:30 kali dbus-daemon[1573]: [session uid=1000 pid=1573 pidfd=5] Failed to activate service 'org.gnome.Shell.Screencast': timed out (service_start_timeout=120000ms)
